@@ -41,7 +41,7 @@ input {
     box-sizing: border-box;
 }
 input[type="text"] {
-    width: 49%;
+    width: 50%;
 }
 input[type="password"],
 input[type="email"] {
@@ -101,20 +101,29 @@ button {
     input {
         padding: 10px;
         box-sizing: border-box;
+        padding-left: 3px;
     }
     input[type="text"] {
-        width: 99%;
+        width: 100%;
        margin-top: 10px;
+       padding-left: 3px;
+    }
+    input[type="password"],
+    input[type="email"] {
+    width: 100%;
     }
    .btn{
     display: flex;
     flex-direction: column-reverse;
-    
+    width: 100%;
+    padding-left: 3px;
    }
    button{
-    width: 99%;
+    width: 100%;
     margin-bottom: 5px;
    }
-   
+   .description{
+        display: none;
+   }
    
 }
